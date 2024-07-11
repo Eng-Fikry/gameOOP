@@ -1,0 +1,150 @@
+header img{
+    height: 30vh;
+    object-fit: cover;
+    
+    
+}
+body{
+    background-color: #272b30;
+}
+
+nav{
+   
+    background-color: #3a497b !important;
+    margin-top: -30px ;
+    z-index: 99999999;
+    
+}
+.nav-link{
+    color: white ;
+
+}
+.card1{
+    
+    border: solid rgb(29, 29, 29) 1px;
+    
+}
+.footer::after{
+    content: "";
+    background-color: black;
+    
+    height: 1px;
+    
+    position: absolute;
+    top: -5px;
+    left: -16px;
+    right: -16px;
+    
+    
+
+}
+.footer{
+   
+    position: relative;
+}
+
+.footer span{
+    
+    background-color: #393c3f;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.caption span{
+    padding: 12px 10px !important;
+    text-align: center;
+    
+    font-size: smaller;
+}
+.col-lg-3:hover{
+    transform: scale(1.03);
+}
+
+span{
+    font-size: 12px;
+}
+p{
+    font-size: 14px;
+}
+ /* .iconn{
+    position: relative;
+    right: -1400px;
+    top: 50px;
+    cursor: pointer;
+
+} */
+
+.me-5{
+
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+
+}
+
+
+.overlays{
+    background-color: rgba(0, 0, 0, .3);
+   width: 92.5%;
+   height: 100%;
+   transition: .0001s ease-out ;
+   position: absolute;
+    
+}
+.col-lg-3{
+    transition: .4s ;
+    position: relative;
+    cursor: pointer;
+}
+
+.col-lg-3:hover .overlays{
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+
+
+
+.loading {
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background-color: #272b30e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: relative;
+ }
+ .loader::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-left: 4px solid #ff3d00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+ }
+ @keyframes rotation {
+    0% {
+       transform: rotate(0deg);
+    }
+    100% {
+       transform: rotate(360deg);
+    }
+ }
+
+
+
